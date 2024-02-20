@@ -11,7 +11,7 @@ export default function Login() {
   const [email, setEmail] = useState("")
 
   const PostData = () => {
-    fetch('/signIn', {
+    fetch('https://instagram-clone-backend-k8nz.vercel.app/signIn', {
       method: "post",
       headers: {
         "Content-Type": "application/json"
